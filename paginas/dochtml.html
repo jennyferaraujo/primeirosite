@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Testes HTML</title>
+</head>
+
+<body>
+    <main>
+        <!--comentario-->
+        <h2 id="formatacao">Exemplos de Formatação de Texto</h2>
+        <ul>
+            <li>
+                <b>texto negrito</b> - <code>&lt;b&gt;texto negrito&lt;/b&gt;</code>
+            </li>
+            <li>
+                <strong>texto forte</strong> - <code>&lt;strong&gt;texto forte&lt;/strong&gt;</code>
+            </li>
+            <li>
+                <em>texto enfatizado</em> - <code>&lt;em&gt;texto enfatizado&lt;/em&gt;</code>
+            </li>
+            <li>
+                <i>texto italico</i> - <code>&lt;i&gt;texto italico&lt;/i&gt;</code>
+            </li>
+            <li>
+                <mark>texto grifado</mark> - <code>&lt;mark&gt;texto grifado&lt;/mark&gt;</code>
+            </li>
+            <li>
+                <big>texto grande</big> - <code>&lt;big&gt;texto grande&lt;/big&gt;</code>
+            </li>
+            <li>
+                <small>texto pequeno</small> - <code>&lt;small&gt;texto pequeno&lt;/small&gt;</code>
+            </li>
+            <li>
+                <del>texto taxado</del> - <code>&lt;del&gt;texto taxado&lt;/del&gt;</code>
+            </li>
+            <li>
+                <ins>texto inserido</ins> - <code>&lt;ins&gt;texto inserido&lt;/ins&gt;</code>
+            </li>
+            <li>
+                <u>texto sublinhado</u> - <code>&lt;u&gt;texto sublinhado&lt;/u&gt;</code>
+            </li>
+            <li>
+                esse é um<sub>texto subscrito</sub> - <code>&lt;sub&gt;texto subscrito&lt;/sub&gt;</code>
+            </li>
+            <li>
+                esse é um<sup>texto subscrito</sup> - <code>&lt;sup&gt;texto subscrito&lt;/sup&gt;</code>
+            </li>
+
+        </ul>
+
+        <h2>&lt;li&gt;Exemplos de listas&lt;/li&gt;</h2>
+
+        <code>&lt;ul&gt;lista não classificada&lt;/ul&gt;</code>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+
+        <code>&lt;ol&gt;lista classificada numéricamente&lt;/ol&gt;</code>
+        <ol>
+            <li>item1</li>
+            <ul>
+                <li>item 1</li>
+                <ul>
+                    <li>item 1</li>
+                    <li>item 2</li>
+                    <li>item 3</li>
+                </ul>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+            <li>item 3</li>
+            <li>item 2</li>
+            <p><b>Podem ser incrementadas listas dentro das listas.</b></p>
+        </ol>
+
+        <dl>
+            <dt>Título da lista</dt>
+            <dd>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dolor, quaerat aut id facilis,
+                repellendus
+                impedit ipsum ratione soluta accusamus odio quo culpa expedita aspernatur ea asperiores a veniam. Quo.
+            </dd>
+
+            <dt>navegador</dt>
+            <dd>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ducimus reprehenderit unde similique
+                ipsa
+                omnis! Voluptates quo praesentium provident, eaque nam exercitationem iure? Ad alias qui dolor quaerat?
+                Laboriosam, sequi.
+            </dd>
+        </dl>
+
+        <h2>Exemplos de links</h2>
+
+        <!--link para outro site-->
+
+        <p>
+            <!--o atributo target="_blank" abre a pagina em uma nova aba do navegador-->
+            Visite o site da <a href="https://www.proway.com.br" target="_blank">Proway</a>
+        </p>
+
+        <!--link para um bookmark da propria pagina-->
+        <p>
+            vá até a area de exemplos de <a href="#formatacao">formatação</a>
+        </p>
+
+        <!--link para um bookmark de outra pagina-->
+
+        <p>
+            na sessão <a href="http://serasa.proway.com.br/#fac" target="_blank">perguntas frequentes</a> do projeto
+            serasa
+            da proway você encontra as respostas.
+        </p>
+
+        <!--link para uma pagina do proprio site-->
+
+        <p>
+            a descrição do curso se encontra na <a href="index.html">pagina principal</a> deste site.
+        </p>
+
+        <p>
+
+            <!--Link em uma imagem/figura-->
+        <figure>
+            <a href="https://pt.wikipedia.org/wiki/COBOL">
+                <img src="../img/cachorros-fofos.jpg" alt="cachorro fofo">
+            </a>
+            <figcaption>COBOL </figcaption>
+        </figure>
+
+        <!--Link para E-mail-->
+        <p>
+            Gostou de nossa oferta? entre em
+            <a
+                href="mailto:jennyfer.hbsis.com.br?subject=Contato&body=estou estrando em contato referente a oferta">contato</a>!
+        </p>
+
+        <h2>Exemplos de Tabelas</h2>
+
+        <table border=1>
+            <tr>
+                <td>linha 1, coluna 1</td>
+                <td>linha 1, coluna 2</td>
+            </tr>
+            <tr>
+                <td>linha 2, coluna 1</td>
+                <td>linha 2, coluna 2</td>
+            </tr>
+        </table>
+        <BR><BR>
+
+        <!--Tabela com 2 linhas de dados, 1 linha de cabeçalho e 2 colunas -->
+        <table border=1 width=100%>
+            <tr>
+                <th>cabeçalho 1</th>
+                <th>cabeçalho 2</th>
+            </tr>
+            <tr>
+                <td>
+                    <center>linha 1, coluna 1</center>
+                </td>
+                <td align="right">linha 1, coluna 2</td>
+            </tr>
+            <tr>
+                <td>linha 2, coluna 1</td>
+                <td>linha 2, coluna 2</td>
+            </tr>
+        </table>
+        <BR><BR>
+
+        <!-- tabela com exemplo de colunas mescladas usando colspan -->
+        <table border=1>
+            <tr>
+                <th>coluna 1</th>
+                <th>coluna 2</th>
+                <th>coluna 3</th>
+            </tr>
+            <tr>
+                <td> linha 1, coluna 1</td>
+                <td> linha 1, coluna 2</td>
+                <td> linha 1, coluna 3</td>
+            </tr>
+            <tr>
+                <td colspan="2"> linha 2, coluna 1</td>
+                <td> linha 2, coluna 2</td>
+            </tr>
+        </table>
+        <BR><BR>
+
+        <!-- tabela com exemplo de linhas mescladas usando rowspan -->
+        <table border=1>
+            <tr>
+                <th>coluna 1</th>
+                <th>coluna 2</th>
+                <th>coluna 3</th>
+            </tr>
+            <tr>
+                <td rowspan="2"> linha 1, coluna 1</td>
+                <td> linha 1, coluna 2</td>
+                <td> linha 1, coluna 3</td>
+            </tr>
+            <tr>
+                <td> linha 2, coluna 1</td>
+                <td> linha 2, coluna 2</td>
+            </tr>
+        </table>
+        <BR><BR>
+        <!--  -->
+        <table widht:70% border=1 cellspacing="0" cellpading="0" bgcolor="lightblue" align="left">
+            <caption><strong><i>Papelaria</i></strong></caption>
+            <thead>
+                <tr>
+                    <th width="50%" height=75>quantidade</th>
+                    <th>descrição</th>
+                    <th>preço unit.</th>
+                    <th>preço total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2</td>
+                    <td>lapis de cor</td>
+                    <td>R$5,00</td>
+                    <td>R$10,00</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>caderno brochura 60fl</td>
+                    <td>R$3,00</td>
+                    <td>R$12,00</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3"><b>Total</b></td>
+                    <td>R$22,00</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <h3><a href="../index.html">Voltar para a página principal</a></h3>
+    </main>
+</body>
+
+</html>
